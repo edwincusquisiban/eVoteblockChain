@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="MegaTexto" parent="android:Widget.TextView">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+
+
+</resources>

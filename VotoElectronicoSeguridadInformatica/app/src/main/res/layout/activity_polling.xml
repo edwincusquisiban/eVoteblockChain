@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".PollingActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/candidates"
+        android:text="Candidatos: "
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_gravity="top|end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/candidates_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <TextView
+        android:id="@+id/candidate_choosen"
+        android:text="Elección :"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_endPolling"
+        style="@style/MegaTexto"
+        android:layout_width="327dp"
+        android:layout_height="68dp"
+        android:background="@color/purple_200"
+        android:text="Terminar con la Votación"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+ />
+
+
+
+</LinearLayout>
